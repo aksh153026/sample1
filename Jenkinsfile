@@ -2,15 +2,6 @@ pipeline {
   agent {
       label 'master'
   } 
-	options {
-    skipDefaultCheckout true
-  }
-    tools {
-        git 'Default'
-        nodejs 'NodeJS'
-        maven 'MAVEN_HOME' 
-        jdk 'jdk1.8' 
-    }
  
    stages {
 	stage('Checkout SCM') {
