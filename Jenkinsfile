@@ -2,10 +2,7 @@ pipeline {
   agent {
       label 'master'
   }  
-	
-	 options {
-    skipDefaultCheckout true
-  }
+
    stages {
 	stage('Checkout SCM') {
             steps {
