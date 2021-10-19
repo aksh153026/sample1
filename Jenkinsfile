@@ -1,7 +1,8 @@
 pipeline {    
   agent {
       label 'master'
-  }  
+  } 
+	
 	 options {
     skipDefaultCheckout true
   }
