@@ -11,8 +11,7 @@ pipeline {
        echo 'git repository name is :' + ref
 		    echo 'git repository name dev is :' + base_ref
                
-                
-            }
+                      }
         }
    }
 }
