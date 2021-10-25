@@ -1,2 +1,2 @@
-.git/refs/heads/main
-.git/refs/remotes/origin/main 
+*/refs/heads/main
+*/refs/remotes/origin/main 
