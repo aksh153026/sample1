@@ -4,8 +4,7 @@ pipeline {
 	        label 'master'
 	  
 	  
-  }  	
-	
+  }  		
 	 options {
     skipDefaultCheckout true
   }
